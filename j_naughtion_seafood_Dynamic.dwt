@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- #BeginEditable "doctitle" -->
+    <title>J. Naughtion Seafood - Fresh From the Ocean</title>
+    <!-- #EndEditable -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+	<img alt="" height="170" src="JNAUGHTON_SEAFOOD.jpeg" width="170">
+		<section id="home">
+	</section>
+		<h1></h1>
+        <nav>
+            <p><center><ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+				
+            </ul>
+			</center></p>
+        </nav>
+    </header>
+	
+    <section id="products">
+  <style type="text/css">
+    #container {
+      width: 50000px;
+      height: 500px;
+      overflow: hidden;
+    }
+    #slider {
+      width: 50000px;
+      height: 500px;
+      position: relative;
+      left: 0px;
+      animation-name: slide;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes slide {
+      0% { left: 0px; }
+      100% { left: -2500px; }
+    }
+    img {
+      float: left;
+    }
+  </style>
+
+<body>
+  <div id="container">
+    <div id="slider">
+      <img src="oysters-on-the-half-shell-1323984.jpg" />
+      <img src="fresh-market-fish-1496134.jpg" />
+      <img src="lobster-fishin-1235248.jpg" />
+    </div>
+  </div>    
+  </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At J. Naughton Seafood, we are committed to providing the highest quality seafood sourced directly from trusted, 
+		local fishermen. Our mission is to deliver fresh, sustainable, and delicious seafood options to our customers.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, orders, or any questions, please reach out to us:</p>
+        <div class="contact-details">
+            <p>Email: <a href = "mailto: Josh@jnaughtonseafood.com">Josh@jnaughtonseafood.com</a></p>
+            
+            <p>Phone: 617-388-8731</p>
+            <p>Address: <a href="http://maps.google.com/?q=173 Wareham Rd, Marion, Ma. 02738">173 Wareham Rd, Marion, Ma. 02738 </a></p>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 J. Naughton Seafood LLC, All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+RewriteCond %{HTTP_HOST} ^jnaughtonseafood.com
+RewriteRule ^(.*) http://crispoj.freeshell.org/JNAUGHTON/Jnaughtonseafoodindex.html [P]
+
+
+
+	

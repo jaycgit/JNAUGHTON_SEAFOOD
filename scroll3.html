@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrolling Images</title>
+  <style type="text/css">
+    #container {
+      width: 50000px;
+      height: 500px;
+      overflow: hidden;
+    }
+    #slider {
+      width: 50000px;
+      height: 500px;
+      position: relative;
+      left: 0px;
+      animation-name: slide;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes slide {
+      0% { left: 0px; }
+      100% { left: -2500px; }
+    }
+    img {
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="slider">
+      <img src="oysters-on-the-half-shell-1323984.jpg" />
+      <img src="fresh-market-fish-1496134.jpg" />
+      <img src="lobster-fishin-1235248.jpg" />
+    </div>
+  </div>
+</body>
+</html>
